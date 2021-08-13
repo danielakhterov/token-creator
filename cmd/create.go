@@ -25,7 +25,7 @@ var createCmd = &cobra.Command{
 	Short: "Create tokens",
 	Example: `
 Create a mutable token (set an adminKey):
-    third-act create \
+    token-creator create \
         --operatorKey="<operatorKey>" \
         --operatorID="<operatorID>" \
         --tokenName="<tokenName>" \
@@ -35,7 +35,7 @@ Create a mutable token (set an adminKey):
 
 
 Create a token which requires KYC (set a kycKey):
-    third-act create \
+    token-creator create \
         --operatorKey="<operatorKey>" \
         --operatorID="<operatorID>" \
         --tokenName="<tokenName>" \
@@ -45,7 +45,7 @@ Create a token which requires KYC (set a kycKey):
 
 
 Create token with limited supply (Do not set a supplyKey):
-    third-act create \
+    token-creator create \
         --operatorKey="<operatorKey>" \
         --operatorID="<operatorID>" \
         --tokenName="<tokenName>" \

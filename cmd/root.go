@@ -10,7 +10,7 @@ var operatorID string
 var network string
 
 var rootCmd = &cobra.Command{
-	Use:   "third-act",
+	Use:   "token-creator",
 	Short: "Create and mint tokens from CLI",
 	Run: func(cmd *cobra.Command, args []string) {
 	},

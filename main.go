@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/danielakhterov/third-act/cmd"
+	"github.com/danielakhterov/token-creator/cmd"
 )
 
 func main() {

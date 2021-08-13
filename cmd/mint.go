@@ -13,7 +13,7 @@ var mintCmd = &cobra.Command{
 	Short: "Mint tokens",
 	Example: `
 Mint tokens:
-    third-act create \
+    token-creator create \
         --operatorKey="<operatorKey>" \
         --operatorID="<operatorID>" \
         --tokenID="<tokenID>" \

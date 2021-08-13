@@ -1,4 +1,4 @@
-module github.com/danielakhterov/third-act/cmd
+module github.com/danielakhterov/token-creator/cmd
 
 go 1.13
 
